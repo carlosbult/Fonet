@@ -1948,7 +1948,7 @@ Pricing Area CSS
   padding-bottom: 70px;
 
   &.extra-mb {
-    margin-bottom: -480px;
+    margin-bottom: 50px;
   }
 }
 .single-pricing-table {
@@ -1969,8 +1969,8 @@ Pricing Area CSS
 
     .icon {
       display: inline-block;
-      background-color: #ffabae;
-      color: $black-color;
+      background-color: $headerFooter;
+      color: $white-color;
       width: 80px;
       height: 80px;
       line-height: 80px;
@@ -2015,7 +2015,7 @@ Pricing Area CSS
         margin-bottom: 0;
       }
       i {
-        background-color: #fb898d;
+        background-color: $main-color;
         display: inline-block;
         width: 22px;
         height: 22px;
@@ -2078,7 +2078,7 @@ Pricing Area CSS
     padding: 11px 30px;
     color: $white-color;
     border-radius: 30px;
-    border: 2px solid #ffabae;
+    border: 2px solid $main-color;
     font: {
       size: 15px;
       weight: 700;
@@ -2132,7 +2132,7 @@ Pricing Area CSS
   }
   &:hover,
   &.active {
-    background-color: #21232f;
+    background-color: $headerFooter;
 
     &::before,
     &::after {
@@ -2232,7 +2232,7 @@ FAQ Area CSS
     }
   }
   &.extra-pt {
-    padding-top: 550px;
+    // padding-top: 550px;
   }
 }
 .faq-accordion {

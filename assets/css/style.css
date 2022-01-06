@@ -1945,7 +1945,7 @@ Pricing Area CSS
 }
 
 .pricing-area.extra-mb {
-  margin-bottom: -480px;
+  margin-bottom: 50px;
 }
 
 .single-pricing-table {
@@ -1970,8 +1970,8 @@ Pricing Area CSS
 
 .single-pricing-table .pricing-header .icon {
   display: inline-block;
-  background-color: #ffabae;
-  color: #050c1c;
+  background-color: #050c1c;
+  color: #ffffff;
   width: 80px;
   height: 80px;
   line-height: 80px;
@@ -2018,7 +2018,7 @@ Pricing Area CSS
 }
 
 .single-pricing-table .pricing-features-list li i {
-  background-color: #fb898d;
+  background-color: #b8f00d;
   display: inline-block;
   width: 22px;
   height: 22px;
@@ -2075,7 +2075,7 @@ Pricing Area CSS
   padding: 11px 30px;
   color: #ffffff;
   border-radius: 30px;
-  border: 2px solid #ffabae;
+  border: 2px solid #b8f00d;
   font-size: 15px;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
@@ -2134,7 +2134,7 @@ Pricing Area CSS
 }
 
 .single-pricing-table:hover, .single-pricing-table.active {
-  background-color: #21232f;
+  background-color: #050c1c;
 }
 
 .single-pricing-table:hover::before, .single-pricing-table:hover::after, .single-pricing-table.active::before, .single-pricing-table.active::after {
@@ -2225,10 +2225,6 @@ FAQ Area CSS
   background-position: bottom left;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.faq-area.extra-pt {
-  padding-top: 550px;
 }
 
 .faq-accordion .accordion {
