@@ -53,7 +53,7 @@
   }
   .main-banner {
     background-image: unset;
-    background-color: #262735;
+    background-color: #050c1c;
     padding-top: 100px;
     padding-bottom: 80px;
   }
@@ -127,7 +127,7 @@
     left: 0;
     bottom: 130px;
   }
-  .home-slides.owl-theme .owl-nav [class*=owl-] {
+  .home-slides.owl-theme .owl-nav [class*='owl-'] {
     font-size: 15px;
     margin: 0 5px;
     width: 38px;
@@ -207,7 +207,7 @@
   }
   .services-area.bg-image {
     background-image: unset;
-    background-color: #262735;
+    background-color: #050c1c;
   }
   .single-services-box {
     padding: 20px;
@@ -481,10 +481,12 @@
     padding-right: 5px;
     padding-left: 5px;
   }
-  blockquote, .blockquote {
+  blockquote,
+  .blockquote {
     padding: 20px !important;
   }
-  blockquote p, .blockquote p {
+  blockquote p,
+  .blockquote p {
     font-size: 15px;
   }
   .comments-area {
@@ -870,7 +872,7 @@
   }
   .main-banner {
     background-image: unset;
-    background-color: #262735;
+    background-color: #050c1c;
     padding-top: 125px;
     padding-bottom: 80px;
   }
@@ -1150,10 +1152,12 @@
   .blog-details .article-content p {
     font-size: 14px;
   }
-  blockquote, .blockquote {
+  blockquote,
+  .blockquote {
     padding: 40px !important;
   }
-  blockquote p, .blockquote p {
+  blockquote p,
+  .blockquote p {
     font-size: 17px;
   }
   .comments-area .comments-title {
@@ -1194,7 +1198,7 @@
   }
   .main-banner {
     background-image: unset;
-    background-color: #262735;
+    background-color: #050c1c;
     padding-top: 130px;
     padding-bottom: 130px;
   }
