@@ -105,7 +105,7 @@ $headerFooter: #050c1c;
       color: $headerFooter;
     }
     padding: {
-      top: 100px;
+      top: 20px;
       bottom: 80px;
     }
   }
@@ -1260,7 +1260,7 @@ $headerFooter: #050c1c;
       color: $headerFooter;
     }
     padding: {
-      top: 125px;
+      top: 25px;
       bottom: 80px;
     }
   }
@@ -1752,7 +1752,7 @@ $headerFooter: #050c1c;
       color: $headerFooter;
     }
     padding: {
-      top: 130px;
+      top: 30px;
       bottom: 130px;
     }
   }
@@ -2065,7 +2065,7 @@ $headerFooter: #050c1c;
     }
     &.mean-container {
       .mean-nav .navbar-nav {
-        height: 343px;
+        // height: 343px;
         overflow-y: scroll;
       }
     }
@@ -2115,6 +2115,8 @@ $headerFooter: #050c1c;
     }
   }
   .others-options {
-    display: none;
+    display: flex;
+    margin: 15px 0 15px 0;
+    justify-content: center;
   }
 }

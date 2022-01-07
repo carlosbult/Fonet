@@ -54,7 +54,7 @@
   .main-banner {
     background-image: unset;
     background-color: #050c1c;
-    padding-top: 100px;
+    padding-top: 20px;
     padding-bottom: 80px;
   }
   .main-banner-content {
@@ -873,7 +873,7 @@
   .main-banner {
     background-image: unset;
     background-color: #050c1c;
-    padding-top: 125px;
+    padding-top: 25px;
     padding-bottom: 80px;
   }
   .main-banner-content .sub-title {
@@ -1199,7 +1199,7 @@
   .main-banner {
     background-image: unset;
     background-color: #050c1c;
-    padding-top: 130px;
+    padding-top: 30px;
     padding-bottom: 130px;
   }
   .main-banner-content h1 {
@@ -1374,7 +1374,6 @@
     display: inline-block;
   }
   .bahama-mobile-nav.mean-container .mean-nav .navbar-nav {
-    height: 343px;
     overflow-y: scroll;
   }
   .bahama-nav {
@@ -1400,7 +1399,13 @@
     font-size: 15px;
   }
   .others-options {
-    display: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 15px 0 15px 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
