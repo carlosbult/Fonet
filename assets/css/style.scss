@@ -1443,6 +1443,9 @@ About Area CSS
 }
 .about-image {
   text-align: center;
+  img {
+    border-radius: 10px;
+  }
 }
 .about-main-image {
   position: relative;
@@ -2675,6 +2678,7 @@ Why Choose Us Area CSS
 
   img {
     max-width: 110%;
+    border-radius: 10px;
   }
   .text {
     position: absolute;
@@ -5263,6 +5267,7 @@ Contact Area CSS
   position: relative;
   z-index: 1;
   overflow: hidden;
+  border-radius: 10px;
 
   .icon {
     color: $optional-color;

@@ -1416,6 +1416,10 @@ About Area CSS
   text-align: center;
 }
 
+.about-image img {
+  border-radius: 10px;
+}
+
 .about-main-image {
   position: relative;
   text-align: center;
@@ -2659,6 +2663,7 @@ Why Choose Us Area CSS
 
 .why-choose-us-image img {
   max-width: 110%;
+  border-radius: 10px;
 }
 
 .why-choose-us-image .text {
@@ -3602,7 +3607,6 @@ Page Title Area CSS
   position: relative;
   z-index: 1;
   background-color: #050c1c;
-  background-image: url(../../assets/img/mainBotton.png);
   background-position: right top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5239,6 +5243,7 @@ Contact Area CSS
   position: relative;
   z-index: 1;
   overflow: hidden;
+  border-radius: 10px;
 }
 
 .single-contact-info .icon {
