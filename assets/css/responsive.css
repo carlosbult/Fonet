@@ -865,10 +865,10 @@
     left: 35px;
   }
   .navbar-area .bahama-mobile-nav.mean-container a.meanmenu-reveal {
-    padding: 5px 35px 0 0;
+    padding: 15px 35px 0 0;
   }
   .navbar-area.is-sticky .bahama-mobile-nav.mean-container a.meanmenu-reveal {
-    padding: 9px 35px 0 0 !important;
+    padding: 15px 35px 0 0 !important;
   }
   .main-banner {
     background-image: unset;
@@ -1390,7 +1390,7 @@
     padding-bottom: 16px;
   }
   .navbar-area.is-sticky .bahama-mobile-nav.mean-container a.meanmenu-reveal {
-    padding: 9px 15px 0 0;
+    padding: 15px 15px 0 0;
   }
   .navbar-area .mean-container .mean-nav ul li a {
     font-size: 16px;

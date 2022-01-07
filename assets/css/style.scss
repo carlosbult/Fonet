@@ -3604,7 +3604,8 @@ Page Title Area CSS
   position: relative;
   z-index: 1;
   background: {
-    image: url(../../assets/img/page-title-bg.png);
+    color: $headerFooter;
+    // image: url(../../assets/img/mainBotton.png);
     position: right top;
     size: cover;
     repeat: no-repeat;

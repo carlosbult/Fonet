@@ -3601,7 +3601,8 @@ Page Title Area CSS
 .page-title-area {
   position: relative;
   z-index: 1;
-  background-image: url(../../assets/img/page-title-bg.png);
+  background-color: #050c1c;
+  background-image: url(../../assets/img/mainBotton.png);
   background-position: right top;
   background-size: cover;
   background-repeat: no-repeat;
