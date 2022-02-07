@@ -62,6 +62,8 @@ Default Area CSS
 $font-family: 'Nunito', sans-serif;
 $optional-font-family: 'Montserrat', sans-serif;
 
+
+
 $main-color: #b8f00d;
 
 $optional-color: #0083a3;
@@ -858,7 +860,6 @@ Main Banner Area CSS
   position: relative;
   z-index: 1;
   overflow: hidden;
-  background-image: url(../img/mainBotton.svg);
   background: {
     color: $headerFooter;
     position: bottom left;
@@ -989,7 +990,8 @@ Main Banner Area CSS
 }
 .banner-image {
   img {
-    max-width: 110%;
+    max-width: 100%;
+    border-radius: 50px 50px 50px 50px;
   }
 }
 @keyframes ripple {
@@ -1009,6 +1011,7 @@ Main Banner Area CSS
 }
 .shape-img1 {
   position: absolute;
+  width: 100%;
   right: 0;
   top: 0;
   z-index: -1;
@@ -1088,6 +1091,9 @@ Main Banner Area CSS
   background-image: url(../../assets/img/main-banner3.jpg);
 }
 .home-slides {
+  &.owl-carousel {
+    z-index: 0;
+  }
   &.owl-theme {
     .owl-nav {
       margin-top: 0;
@@ -1441,10 +1447,18 @@ About Area CSS
     margin-top: 5px;
   }
 }
+
 .about-image {
-  text-align: center;
-  img {
-    border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: start;
+  border: 1px solid #cecece;
+  border-radius: 20px;
+  padding: 30px 20px 20px 30px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.07), 0 10px 10px rgba(0, 0, 0, 0.05);
+  div {
+    display: none;
   }
 }
 .about-main-image {

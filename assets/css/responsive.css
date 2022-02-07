@@ -308,9 +308,6 @@
   .coverage-area-map img {
     max-width: 100%;
   }
-  .faq-area.extra-pt {
-    padding-top: 520px;
-  }
   .col-lg-6:last-child .faq-accordion {
     margin-top: 15px;
   }
@@ -970,9 +967,6 @@
   }
   .single-packages-box h3 {
     font-size: 22px;
-  }
-  .faq-area.extra-pt {
-    padding-top: 530px;
   }
   .col-lg-6:last-child .faq-accordion {
     margin-top: 15px;

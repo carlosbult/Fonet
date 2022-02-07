@@ -57,11 +57,14 @@
     // Home Slides
     $('.home-slides').owlCarousel({
         loop: true,
-        nav: true,
+        nav: false,
+        slideTransition:'linear',
         dots: false,
         autoplayHoverPause: true,
         autoplay: true,
-        smartSpeed: 750,
+        autoplayTimeout: 15000,
+        smartSpeed: 15000,
+        margin: 40,
         items: 1,
         navText: [
             "<i class='fas fa-chevron-left'></i>",
@@ -81,9 +84,10 @@
         $(".hero-content .btn").addClass("animated fadeInUp").css("opacity", "1");
     });
 
+
     // TV Show Slides
     $('.tv-show-slides').owlCarousel({
-        loop: false,
+        loop: true,
         nav: false,
         dots: false,
         autoplayHoverPause: true,
@@ -101,9 +105,6 @@
                 items: 2,
             },
             768: {
-                items: 2,
-            },
-            1200: {
                 items: 3,
             }
         }
